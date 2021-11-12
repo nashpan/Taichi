@@ -6,7 +6,7 @@ Taichi是一款**高性能空间稀疏数据结构的计算引擎**。其涉及�
 
 > 一个矩阵绝大部分数值为零，**且非零元素呈不规律分布时**（？？？），则该矩阵为稀疏矩阵
 >
-> <img src="C:\Users\e\AppData\Roaming\Typora\typora-user-images\image-20211109094224854.png" alt="image-20211109094224854" style="zoom:67%;" /> 
+> ![image](https://raw.githubusercontent.com/nashpan/image-hosting/main/markdown_image/image.141x875za5r4.png) 
 >
 > **为什么使用稀疏矩阵**
 >
@@ -25,7 +25,7 @@ Taichi采用**命令式编程**，由于更贴近硬件，命令式编程更容�
   
   > 即Taichi自动的帮我们做了数据数据计算的优化
   
-  ![image-20211110103950404](C:\Users\e\AppData\Roaming\Typora\typora-user-images\image-20211110103950404.png) 
+  ![taichi_processing](https://raw.githubusercontent.com/nashpan/image-hosting/main/markdown_image/taichi_processing.png) 
   
 - **可移植**
 
@@ -1049,9 +1049,9 @@ def compute_laplacian(self):
 
 ### 4. 1. render
 
-<img src="https://raw.githubusercontent.com/nashpan/image-hosting/main/markdown_image/image.6sercclsrmg0.png" alt="image" style="zoom:50%;" />     <img src="C:\Users\e\AppData\Roaming\Typora\typora-user-images\image-20211110200208961.png" alt="image-20211110200208961" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/nashpan/image-hosting/main/markdown_image/image.6sercclsrmg0.png" alt="image" style="zoom:50%;" />     <img src="https://raw.githubusercontent.com/nashpan/image-hosting/main/markdown_image/down_sample.3tr225swhoi0.png" alt="down_sample" style="zoom:65%;" />
 
-​     shadertoy效果(perlin_noise的实时计算)                       多重降采样+横向纵向的高斯模糊    
+​     shadertoy效果(perlin_noise的实时计算)                            多重降采样+横向纵向的高斯模糊    
 
 ```python
 import taichi as ti
